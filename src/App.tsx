@@ -1,6 +1,6 @@
 
 import './App.css'
-import { FaGithub, FaLinkedin, FaTwitter, FaInstagram, FaYoutube, FaGlobe } from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaTwitter, FaInstagram, FaGlobe } from 'react-icons/fa'
 import vinayImage from './assets/vinay.jpg'
 import { ExternalBrowserPrompt } from './components/ExternalBrowserPrompt'
 
