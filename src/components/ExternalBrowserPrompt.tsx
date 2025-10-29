@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { isInAppBrowser, getCurrentUrl, openInExternalBrowser } from '../utils/browserDetect';
+import { isInAppBrowser, openInExternalBrowser } from '../utils/browserDetect';
 
 export const ExternalBrowserPrompt = () => {
     const [showPrompt, setShowPrompt] = useState(false);
@@ -17,11 +17,11 @@ export const ExternalBrowserPrompt = () => {
         openInExternalBrowser();
     };
 
-    const handleCopyLink = () => {
-        const url = getCurrentUrl();
-        navigator.clipboard.writeText(url);
-        alert('Link copied! Paste it in your browser (Safari, Chrome, etc.)');
-    };
+    // const handleCopyLink = () => {
+    //     const url = getCurrentUrl();
+    //     navigator.clipboard.writeText(url);
+    //     alert('Link copied! Paste it in your browser (Safari, Chrome, etc.)');
+    // };
 
     return (
         <div className="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-4 animate-fade-in">
