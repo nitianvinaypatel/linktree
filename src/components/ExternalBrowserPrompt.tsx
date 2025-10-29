@@ -29,7 +29,7 @@ export const ExternalBrowserPrompt = () => {
                 <div className="text-center mb-6">
                     <div className="text-5xl mb-4">🌐</div>
                     <h2 className="text-2xl font-bold text-white mb-2">
-                        Open in Browser
+                        Open in Chrome
                     </h2>
                     <p className="text-gray-300 text-sm leading-relaxed">
                         For the best experience, please open this page in your default browser (Safari, Chrome, etc.)
@@ -46,29 +46,29 @@ export const ExternalBrowserPrompt = () => {
                     </button>
 
                     {/* Copy link option */}
-                    <button
+                    {/* <button
                         onClick={handleCopyLink}
                         className="w-full bg-white/10 backdrop-blur-xl border border-white/20 text-white font-semibold py-4 px-6 rounded-xl hover:bg-white/20 transition-all duration-300"
                     >
                         Copy Link
-                    </button>
+                    </button> */}
 
                     {/* Continue anyway */}
-                    <button
+                    {/* <button
                         onClick={() => setShowPrompt(false)}
                         className="w-full text-gray-400 text-sm py-2 hover:text-white transition-colors duration-300"
                     >
                         Continue here anyway
-                    </button>
+                    </button> */}
                 </div>
 
                 {/* Instructions */}
-                <div className="mt-6 p-4 bg-white/5 rounded-xl border border-white/10">
+                {/* <div className="mt-6 p-4 bg-white/5 rounded-xl border border-white/10">
                     <p className="text-xs text-gray-400 leading-relaxed">
                         <strong className="text-white">How to open:</strong><br />
                         Tap the three dots (•••) at the top right → Select "Open in Browser" or "Open in Safari/Chrome"
                     </p>
-                </div>
+                </div> */}
             </div>
         </div>
     );
