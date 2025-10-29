@@ -42,7 +42,7 @@ export const ExternalBrowserPrompt = () => {
                         onClick={handleOpenExternal}
                         className="w-full bg-gradient-to-r from-purple-500 to-blue-500 text-white font-semibold py-4 px-6 rounded-xl hover:from-purple-600 hover:to-blue-600 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-[1.02]"
                     >
-                        Open in Browser
+                        Open in Chrome Browser
                     </button>
 
                     {/* Copy link option */}
